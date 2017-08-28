@@ -1,0 +1,18 @@
+.paragraph--type--video {
+	text-align: center;
+	position: relative;
+
+	.field--name-field-main-image {
+		position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translateX(-50%) translatey(-50%);
+        -moz-transform: translateX(-50%) translatey(-50%);
+        transform: translateX(-50%) translatey(-50%);
+        width: 100%;
+
+        img {
+        	display: inline-block;
+        }
+	}
+}
